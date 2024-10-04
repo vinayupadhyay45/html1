@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+    <title>cricket game</title>
+</head>
+<body>
+    <h1> Bat Ball Stump Game </h1>
+    
+    <button  onclick="
+    console.log('you have chosen bat ');
+    let randomNumber= Math.random()*3;
+    let computerChoice;
+    let resultMassage;
+    if(randomNumber > 0 && randomNumber <= 1){ 
+        computerChoice='Bat';
+       //console.log('computer choice is bat');
+    }else if( randomNumber>1 && randomNumber<=2) {
+       computerChoice='Ball';
+       //console.log(computer choice is ball);
+    } else{
+         computerChoice='Stump';
+         //console.log(.computer choice is stump');
+    }
+    console.log(`Computer choice is ${computerChoice}`)
+    
+    if (computerChoice==='Ball'){
+        resultMassage='user was won';
+     // console.log('user won')
+    }else if (computerChoice==='Bat'){
+       // console.log(`It's a tie`);
+       resultMassage=`it's tie`
+    }
+    else{
+        computerChoice==='Stump'
+        resultMassage='computer has won';
+    //console.log(`you has lost`);
+    }
+    alert(`You have chossen Bat. computer choice is ${computerChoice} and result is ${resultMassage}`);"
+    
+    
+    
+    
+    >Bat </button>
+    <button onclick="
+   console.log('you have chosen ball ');
+   
+   
+   
+   //computerChoice;
+   randomNumber= Math.random()*3;
+   let resultMassage;
+    if(randomNumber > 0 && randomNumber <= 1){ 
+        computerChoice='Bat';
+       console.log('computer choice is bat');
+    }else if( randomNumber>1 && randomNumber<=2) {
+       computerChoice='Ball';
+       console.log('computer choice is ball');
+    } else{
+         computerChoice='Stump';
+         console.log('computer choice is stump');
+    }
+    console.log(`Computer choice is ${computerChoice}`)
+    
+    if (computerChoice==='Ball'){
+        resultMassage=`it's tie`;
+     // console.log('tie')
+    }else if (computerChoice==='Bat'){
+       // console.log(`won`);
+       resultMassage='You has won';
+    }
+    else{
+        computerChoice==='Stump'
+        resultMassage='Computer has won';
+    //console.log(`lost`);
+    }
+    alert(`You have chossen Ball. computer choice is ${computerChoice} and result is ${resultMassage}`);"
+    >Ball </button>
+    <button>Stump </button>
+    
+    
+</body>
+</html>

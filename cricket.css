@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+.choice-button  {
+    height: 100px;
+    width : 110px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(159, 223, 95); 
+    border-radius: 60px;
+    cursor: pointer;
+
+}
+.choice-image 
+{
+    height: 75px;
+    background-color: rgb(159, 223, 95);
+   
+}
+/* #batImage{
+    height: 75px;
+} */
+/* #batImage{
+    background-color: antiquewhite;
+} */

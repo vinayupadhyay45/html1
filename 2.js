@@ -1,0 +1,1 @@
+console.log('i am comming from 2.js');
